@@ -32,7 +32,7 @@
                     <tr>
                         <td>
                             @if($blog->image)
-                                <img src="{{ asset('storage/'.$blog->image) }}" width="60" height="45" style="object-fit:cover;border-radius:6px;">
+                                <img src="{{ asset($blog->image) }}" width="60" height="45" style="object-fit:cover;border-radius:6px;">
                             @else
                                 <div class="bg-secondary bg-opacity-25 rounded" style="width:60px;height:45px;"></div>
                             @endif

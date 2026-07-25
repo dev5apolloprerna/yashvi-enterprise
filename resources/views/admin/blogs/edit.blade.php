@@ -22,7 +22,7 @@
         @if($blog->image)
             <div class="mb-3">
                 <label class="form-label d-block">Current Image</label>
-                <img src="{{ asset('storage/'.$blog->image) }}" width="150" class="rounded mb-2">
+                <img src="{{ asset($blog->image) }}" width="150" class="rounded mb-2">
             </div>
         @endif
 
